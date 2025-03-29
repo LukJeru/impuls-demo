@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: var(--black);
+  font-family: "Mulish", "Times New Roman", sans-serif;
 }
 
 
@@ -20,6 +22,8 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 16px;
+  background-color: var(--celadon);
+  color: var(--mud-green)
 }
 
 header ul {
