@@ -10,11 +10,11 @@
 /*Colors*/
 
 :root {
-  --black: #040403;
-  --mud-green: #5B7553;
-  --blue-green: #8EB897;
-  --tee: #C3E8BD;
-  --celadon: #9DDBAD;
+  --black: #50514F;
+  --off-white: #CBD4C2;
+  --blue: #247BA0;
+  --white: #FFFCFF;
+  --celadon: #C3B299;
 }
 
 /*Header*/
@@ -22,8 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  background-color: var(--celadon);
-  color: var(--mud-green)
+  background-color: var(--blue);
 }
 
 header ul {
@@ -34,13 +33,22 @@ header ul {
 
 li a {
   text-decoration: none;
+  color: var(--white);
+}
+
+header h3 {
+  color: var(--white);
+}
+
+h1, h2, p {
+  color: var(--black);
 }
 
 
 /*main*/
 
 main {
-  background-color: var(--tee);
+  background-color: var(--off-white);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -88,8 +96,8 @@ h1, h2 {
 
 button {
   padding: 12px;
-  background-color: var(--mud-green);
-  color: var(--celadon);
+  background-color: var(--black);
+  color: var(--white);
   font-size: 18px;
   font-weight: 700;
   width: 200px;
@@ -106,5 +114,5 @@ footer {
   align-items: center;
   padding: 18px;
   gap: 24px;
-  background-color: var(--tee);
+  background-color: var(--off-white);
 }
