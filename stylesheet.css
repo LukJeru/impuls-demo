@@ -74,7 +74,13 @@ h1, h2 {
   display: flex;
   margin: 40px 100px;
   gap: 16px;
-  justify-content: flex-start;
+}
+
+.second-para img {
+  object-fit: cover;
+  flex: 0 0 auto;
+  max-width: 300px;
+  height: auto;
 }
 
 .list {
@@ -90,7 +96,8 @@ h1, h2 {
 .third-para {
   display: flex;
   flex-direction: column;
-  margin: 40px 100px;
+  margin-left: 100px;
+  margin-right: 100px;
   gap: 40px;
 }
 
