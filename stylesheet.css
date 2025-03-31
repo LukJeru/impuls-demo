@@ -113,6 +113,11 @@ button {
   border-radius: 8px;
   margin-bottom: 32px;
 }
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--blue);
+}
 /*footer*/
 
 footer {
