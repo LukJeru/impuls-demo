@@ -128,3 +128,8 @@ footer {
   gap: 24px;
   background-color: var(--off-white);
 }
+
+footer a img:hover {
+  background-color: var(--blue);
+  border-radius: 50%;
+}
