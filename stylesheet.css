@@ -21,8 +21,17 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 16px 40px;
   background-color: var(--blue);
+}
+
+header img {
+  filter: invert(81%) sepia(23%) saturate(42%) hue-rotate(248deg) brightness(109%) contrast(116%);
+}
+
+header img:hover {
+  filter: invert(100%) sepia(2%) saturate(6153%) hue-rotate(30deg) brightness(87%) contrast(86%);
+  cursor: pointer;
 }
 
 header ul {
@@ -38,6 +47,11 @@ h1 {
 li a {
   text-decoration: none;
   color: var(--white);
+}
+
+li a:hover {
+  cursor: pointer;
+  color: var(--off-white);
 }
 
 header h3 {
