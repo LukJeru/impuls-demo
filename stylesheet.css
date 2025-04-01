@@ -31,6 +31,10 @@ header ul {
   gap: 12px;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 li a {
   text-decoration: none;
   color: var(--white);
@@ -129,7 +133,11 @@ footer {
   background-color: var(--off-white);
 }
 
+footer a img {
+  background-color: var(--white);
+  border-radius: 50%;
+}
+
 footer a img:hover {
   background-color: var(--blue);
-  border-radius: 50%;
 }
