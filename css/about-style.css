@@ -1,0 +1,12 @@
+header.about {
+  flex: 0 0 auto;
+}
+
+main.about {
+  flex: 1 1 auto;
+  min-height: 650px;
+}
+
+footer.about {
+  flex: 0 0 auto;
+}
