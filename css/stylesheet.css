@@ -80,18 +80,26 @@ h1, h2 {
   flex-direction: row-reverse;
   margin: 40px 100px;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 .first-para div {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 800px;
+  flex: 1 1 auto;
+}
+
+.first-para img {
+  flex: 1 2 auto;
 }
 
 .second-para {
   display: flex;
   margin: 40px 100px;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 .second-para img {
